@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5.3rem;
+}
+
+
+@media (max-width: 415px) {
+    .mobileContainer {
+        font-size: 3.3rem;       
+    }
+}
