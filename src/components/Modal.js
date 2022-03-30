@@ -32,7 +32,7 @@ export default function Modal(props) {
         if (player1Total > player2Total) {
             return (
                 <>
-                    <h1 className="fs-3 my-3">{name1}</h1>
+                    <h1 className="fs-3 my-3">O vencedor foi {name1}</h1>
                     <div className="text-center">
                         <img src={image1} className="rounded" alt={name1}/>
                     </div>
@@ -43,7 +43,7 @@ export default function Modal(props) {
         if (player1Total < player2Total) {
             return (
                 <>
-                    <h1 className="fs-3 my-3">{name2}</h1>
+                    <h1 className="fs-3 my-3">O vencedor foi {name2}</h1>
                     <div className="text-center">
                         <img src={image2} className="rounded" alt={name2}/>
                     </div>
